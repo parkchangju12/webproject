@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+
+  </head>
+
+  <body>
+    <style media="screen">
+      li{ list-style: none;}
+
+      .colorBtn{
+        width:100px;/*가로*/
+        height:36px;/*세로*/
+        background-color: green;/*배경색*/
+        color:white;/*글자색 */
+        text-align: center;/*글자위치(가로)*/
+        line-height: 36px;/*글자위치(세로)*/
+        cursor: pointer;/*효과(클릭은pointer)*/
+        border-radius: 50px;/*둥글기*/
+      }
+
+    </style>
+    <form>
+      <ul>
+        <li><input type="text"></li>
+        <li><input type="password"></li>
+        <li>
+          <label><input type="radio" name="fruit" value="orange">오렌지</label>
+          <label><input type="radio" name="fruit" value="apple">사과</label>
+          <label><input type="radio" name="fruit" value="strawberry">딸기</label>
+        </li>
+        <li>
+          <label><input type="checkbox" name="fruit" value="orange">오렌지</label>
+          <label><input type="checkbox" name="fruit" value="apple">사과</label>
+          <label><input type="checkbox" name="fruit" value="strawberry">딸기</label>
+        </li>
+        <li>
+          <a href="https=www.naver.com"><input type="button" value="버튼입니다."></a>
+        </li>
+        <li>
+          <input type="submit" value="저장하기">
+        </li>
+
+        <div class="colorBtn">
+          버튼입니다.
+        </div>
+      </ul>
+    </form>
+  </body>
+</html>
